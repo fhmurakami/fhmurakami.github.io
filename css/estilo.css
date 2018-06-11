@@ -116,3 +116,9 @@ footer {
     width: 100%;
     top: 100px;
 }
+
+@media (max-width:575px) {
+  .about img#foto-perfil {
+    max-width: 250px; 
+  }
+}
