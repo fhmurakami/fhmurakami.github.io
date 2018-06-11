@@ -7,6 +7,10 @@ body {
     background-color: rgba(0,0,0,0.4);
 }
 
+.navbar a {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
 .navbar-brand {
     color: #ccc;
 }
