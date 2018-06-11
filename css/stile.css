@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand {
+    color: #ccc;
+}
+
+.header {
+    padding-top:220px;
+    padding-bottom:100px;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    background: url('https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 650px;
+    text-align: center;
+}
+
+.about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #0009;
+    background: url('https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 650px;
+    text-align: center;
+}
+
+.about p, span {
+    text-align: justify;
+    color: #707070;
+}
+
+.about a {
+    font-weight: bold;
+    color: #707070; 
+}
+
+.about a:hover {
+    text-decoration: none;
+    color: #343a40;
+}
+
+.about div.align-items-center {
+    padding-top: 30px;
+}
+
+.about img#foto-perfil {
+    background-color: #343a40;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.portfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.portfolio h1{
+    color: #ccc;
+    padding-bottom: 40px;
+}
+
+.portfolio a {
+    color: #343a40;
+}
+
+.portfolio a:hover {
+    color: #343a40;
+}
+
+.card-deck {
+    margin-bottom: 10px;
+}
+
+.card {
+    border-color: #343a40;
+}
+
+.card-text {
+    color: #707070;
+}
+
+.contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url('https://images.pexels.com/photos/531873/pexels-photo-531873.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.contact h1 {
+    padding-bottom: 30px;
+}
+
+.contact button {
+    margin: 1%;
+}
+.contact button a {
+    padding: 5px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.4);
+    color: #ccc;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
